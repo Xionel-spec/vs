@@ -1,0 +1,17 @@
+.center-radio {
+    margin: 0 auto;
+    display: block;
+}
+body {
+    background-image: url(C:\Users\USER\Pictures\English.jpg);
+    background-color: silver
+}
+a:visited{
+    color: coral
+}
+a:hover{
+    color: chartreuse
+}
+a:active{
+    color: chocolate
+}

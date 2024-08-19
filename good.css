@@ -1,0 +1,17 @@
+body {
+   background-color: grey
+}
+.center-radio {
+    margin: 0 auto;
+    display: block;
+}
+ 
+a:visited {
+    color: white;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: yellow;
+}

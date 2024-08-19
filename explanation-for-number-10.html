@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> READING MADE EASY</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+    <body>
+     <p>Let's denote the numbers on the sides of the cube as a,b,c,d,e,f, where a and b are on opposite sides, c and d are on opposite sides, and e and f are on opposite sides. The condition given is that the products of numbers on each pair of opposite sides are all the same.</p> 
+        <p>Let this common product be P. Then we have the following equations:</p>
+        <p>ab = P</p>
+        <p>cd = P</p>
+        <p>ef = P</p>
+        <p>To find the lowest possible sum <b>S</b> = a + b + c + d + e + f, we need to consider integer pairs (a,b), (c,d), (e,f) such that ab = cd = ef = <b>P</b> and a, b, c, d, e, f are positive integers.</p>
+        <p>Let's explore the potential pairs to minimize <b>S</b>:</p>
+        <ol>
+            <li>(a,b) = (1,P), (c,d) = (2,P/2), (e,f) = (4,P/4):</br>
+        a + b + c + d + e + f = 1 + P + 2 + P/2 + 4 + P/4</br>
+    Simplifying this:</br>
+S = 7 + P + P/2 + P/4</br>
+S = 7 + (1 + 1/2 + 1/4)P</br>
+S = 7 + 7/4 P</li>
+<li>To minimize S, choose P = 4 (the smallest integer that can be a product):</br>
+S = 7 + 7/4 . 4 = 7+ 7 = 14</br></li>
+</ol>
+Verify:</br>
+<ul>
+<li>ab = 1 . 4 = 4</li>
+<li>cd = 2 . 2 = 4</li>
+<li>ef = 4 . 1 = 4</li>    
+</ul>
+<p>Thus, P = 4 satisfies the condition. Therefore, the lowest possible sum of all the numbers on the sides of the cube is 14.</p>
+<link rel="stylesheet" href="explanation-1.css"></link>
+<a href="answers.html">Got it</a>
+    </body>
+</html>
+        

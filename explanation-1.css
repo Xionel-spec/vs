@@ -1,0 +1,12 @@
+body {
+    background-color: aliceblue;
+    }
+    a:visited{
+        color: purple
+    }
+    a:hover{
+        color: green
+    }
+    a:active{
+        color: peachpuff
+    }

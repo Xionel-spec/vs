@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> READING MADE EASY</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+    <body>
+        <p>To solve the problem, we need to find a number n that satisfies the following congruences:</p>
+        <p>1.	n ≡ 1(mod5)</p>
+        <p>2.	n ≡ 1(mod6)</p>
+        <p>3.	n ≡ 2 (mod7)</p>
+        <section>
+<p>We can start by solving the first two congruences together. Notice that if n ≡ 1 (mod5) and n ≡ 1 (mod6), then n ≡ 1 {modlcm(5,6)}. The least common multiple of 5 and 6 is 30, so:
+            <p></br>n ≡ 1 (mod30)</p>
+    <p>Next, we need to solve the combined congruence n ≡ 1 (mod30) with n ≡ 2 (mod7).</p>
+    <p>Let's write n as 30k + 1 for some integer k. Substituting this into the second congruence:</p>
+    <p>30k + 1 ≡ 2 (mod7)</br>30k ≡ 1 (mod7)</p>
+    <p>Since 30 ≡ 2 (mod7), we substitute:</p>
+2k ≡ 1 (mod7)
+    <p>Now, we need to find the multiplicative inverse of 2 modulo 7. We look for a number x such that:</p>
+<p>2x ≡ 1(mod7)(mod7)
+    By testing values, we find:</p>
+    <p>2 × 4 = 8 ≡ 1 (mod7)</p>
+    <p>So, x = 4x. Therefore, k ≡ 4 (mod7), which means k = 7m + 4 for some integer m.</p>
+    <p>Substituting k back into n:</p>
+    <p>n = 30 (7m+4) + 1 = 210m + 121</p>
+<p>So, n ≡ 121 (mod210). This means the smallest positive n is 121. Now we need to check if any of the given answer choices are factors of 121:</p>
+    <p>121 = 11 × 11</p>
+The factors of 121 are 1, 11, and 121. Among the provided options (4, 11, 13, 17, none of the above), the correct choice is B
+        </section>
+<link rel="stylesheet" href="explanation-1.css"></link>
+<a href="answers.html">Got it</a>
+    </body>
+</html>
